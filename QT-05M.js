@@ -136,10 +136,10 @@ const tzLocal = {
 };
 
 const definition = {
-    fingerprint: [{modelID: 'TS0601', manufacturerName: '_TZE200_arge1ptm'}],
-    model: 'QT-05M',
-    vendor: 'QOTO',
-    description: 'Solar power garden waterering timer',
+    fingerprint: [{modelID: 'TS0601', manufacturerName: '_TZE200_sh1btabb'}],
+    model: 'B0B1JN6KZX',
+    vendor: 'N\D',
+    description: 'Tuya ZIGBEE sprinkler timer',
     fromZigbee: [fz.ignore_basic_report, fz.ignore_tuya_set_time, fz.ignore_onoff_report, fzLocal.watering_timer],
     toZigbee: [
         tzLocal.valve_state,
